@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/for-developer/product")
+@CrossOrigin("*")
 public class ProductController {
 
     @Autowired
